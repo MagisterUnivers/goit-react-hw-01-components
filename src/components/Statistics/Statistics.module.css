@@ -1,0 +1,23 @@
+.statList {
+  gap: 5px;
+  border: 1px solid black;
+
+}
+
+.item {
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+}
+
+.section {
+  border: 1px solid black;
+  width: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
