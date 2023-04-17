@@ -5,7 +5,7 @@ export const Statistics = props => {
   const data = props.stats;
   return (
     <section className={css.section}>
-      {props.title ? <h2 className={css.title}>{props.title}</h2> : null}
+      {props.title && <h2 className={css.title}>{props.title}</h2>}
 
       <ul className={css.statList}>
         {data.map(item => (

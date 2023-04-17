@@ -28,7 +28,7 @@ export const TransactionHistory = props => {
 };
 
 TransactionHistory.propTypes = {
-  friends: PropTypes.arrayOf(
+  items: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string,
       type: PropTypes.string,
